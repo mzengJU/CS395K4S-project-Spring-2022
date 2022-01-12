@@ -7,6 +7,7 @@ using System.Text;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Configuration;
 
 namespace cs395projectK4S
 {
@@ -26,13 +27,9 @@ namespace cs395projectK4S
 
                 try
                 {
-                    SqlConnectionStringBuilder builder = new SqlConnectionStringBuilder();
-                    builder.DataSource = "cs395projectdemo.database.windows.net";
-                    builder.UserID = "cs395projectdemo";
-                    builder.Password = "K4SVirtual";
-                    builder.InitialCatalog = "cs395projectdemoDB";
+                    string connStr = ConfigurationManager.ConnectionStrings["myConnectionString"].ConnectionString;
 
-                    using (SqlConnection connection = new SqlConnection(builder.ConnectionString))
+                    using (SqlConnection connection = new SqlConnection(connStr))
                     {
                         using (SqlCommand command = new SqlCommand(commandText, connection))
                         {

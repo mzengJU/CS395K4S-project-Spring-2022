@@ -10,42 +10,60 @@
 namespace cs395projectK4S {
     
     
-    public partial class StudentService {
+    public partial class Group1_problem_page2 {
         
         /// <summary>
-        /// EmailLb control.
+        /// Label1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label EmailLb;
+        protected global::System.Web.UI.WebControls.Label Label1;
         
         /// <summary>
-        /// EmailTx control.
+        /// Serviceddl control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox EmailTx;
+        protected global::System.Web.UI.WebControls.DropDownList Serviceddl;
         
         /// <summary>
-        /// Button1 control.
+        /// Desctbx control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
+        protected global::System.Web.UI.WebControls.TextBox Desctbx;
         
         /// <summary>
-        /// ServiceTableLb control.
+        /// Label2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label ServiceTableLb;
+        protected global::System.Web.UI.WebControls.Label Label2;
+        
+        /// <summary>
+        /// GridView1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView GridView1;
+        
+        /// <summary>
+        /// RgsBtn control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button RgsBtn;
     }
 }
